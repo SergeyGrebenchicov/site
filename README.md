@@ -39,7 +39,9 @@
 
 1.  **Win 10**
 
-Открываем терминал от админа.
-Пишем и запускаем: Set-ExecutionPolicy RemoteSigned
-На вопрос отвечаем: A (Да для всех)
-PowerShell: npm install -g gatsby-cli
+    ```shell
+    Открываем терминал от админа.
+    Пишем и запускаем: Set-ExecutionPolicy RemoteSigned
+    На вопрос отвечаем: A (Да для всех)
+    PowerShell: npm install -g gatsby-cli
+    ```
