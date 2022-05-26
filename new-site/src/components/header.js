@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import classNames from 'classnames';
 import { Link } from "gatsby"
 
-import styles from "../css/header.module.css"
+import * as styles from '../css/header.module.css'
 
 class Header extends Component {
     constructor(props) {

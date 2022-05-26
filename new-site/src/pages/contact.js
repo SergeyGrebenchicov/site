@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import styles from "../css/contact.module.css"
+import * as styles from '../css/contact.module.css'
 
 class PageContact extends Component {
     render() {

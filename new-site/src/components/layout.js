@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import Header from "./header"
 import Footer from "./footer";
 
-import styles from "../css/layout.module.css"
+import * as styles from '../css/layout.module.css'
 
 class Layout extends Component {
 

@@ -6,8 +6,7 @@ import ok from "../images/ok.png"
 import facebook from "../images/facebook.png"
 import youtube from "../images/youtube.png"
 
-
-import styles from "../css/footer.module.css"
+import * as styles from '../css/footer.module.css'
 
 class Footer extends Component {
     render() {
