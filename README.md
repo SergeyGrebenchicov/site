@@ -44,4 +44,5 @@
     Пишем и запускаем: Set-ExecutionPolicy RemoteSigned
     На вопрос отвечаем: A (Да для всех)
     PowerShell: npm install -g gatsby-cli
+    npm audit fix --force
     ```
