@@ -58,6 +58,7 @@ typings/
 .cache/
 public
 node_modules
+new-site
 
 # Mac files
 .DS_Store
