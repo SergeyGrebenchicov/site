@@ -1,0 +1,73 @@
+html {
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    margin: 0px;
+}
+
+a {
+    color: #3FA9F5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main, section {
+    display: block;
+}
+
+button {
+    text-shadow: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+section {
+    display: block;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.6rem;
+    margin-top: 0;
+    display: block;
+}
+
+h4, .faq-nav__text {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}

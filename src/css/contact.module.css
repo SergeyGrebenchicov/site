@@ -1,0 +1,143 @@
+.slide-half {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.slide-content {
+    width: 100%;
+    max-width: 1680px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.slide-half .slide-copy {
+    width: 50%;
+    box-sizing: border-box;
+    -ms-flex: auto;
+    flex: auto;
+}
+
+.slide-copy {
+    -ms-flex: 1;
+    flex: 1;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 112px;
+}
+.typography, .blog-card, .slide-copy, .slide-faq-content {
+    font-size: 1.125rem;
+    color: #7A868C;
+}
+
+.slide-half.animated .slide-hero {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.slide-center .slide-hero, .blog-overview .slide-hero, .slide-half .slide-hero {
+    opacity: 0.01;
+    transition: all 0.7s cubic-bezier(0.34, 0.61, 0.59, 1.11) 0.6s;
+    transform: translateY(40px);
+}
+.slide-half .slide-hero {
+    width: 50%;
+    box-sizing: border-box;
+    -ms-flex: auto;
+    flex: auto;
+}
+.slide-hero {
+    box-sizing: border-box;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 112px;
+}
+
+.slide-center.animated .hr-gradient, .animated.blog-overview .hr-gradient, .slide-half.animated .hr-gradient {
+    opacity: 1;
+    width: 128px;
+    transform: translate(0px, 0px);
+}
+.slide-center .hr-gradient, .blog-overview .hr-gradient, .slide-half .hr-gradient {
+    opacity: 0.01;
+    transition: all 0.7s ease-out 0.4s;
+    width: 0px;
+    transform: translate(-20px, 30px);
+}
+.slide-half .hr-gradient {
+    margin-right: auto;
+}
+.hr-gradient {
+    width: 128px;
+    height: 8px;
+    background: linear-gradient(90deg, #3A65C7, #3FA9F5);
+    border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.contact-block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.animated .contact-card {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.contact-card:nth-child(1) {
+    transition-delay: 0.75s;
+}
+.contact-card {
+    width: 50%;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+    transition: all 0.45s cubic-bezier(0.34, 0.61, 0.59, 1.11);
+    opacity: 0.01;
+    transform: translateY(45px);
+}
+
+.contact-card-heading {
+    margin-bottom: 0.3em;
+}
+
+.typography h2, .blog-card h2, .slide-copy h2, .slide-faq-content h2 {
+    color: #333E48;
+    margin-top: 0;
+    margin-left: -2px;
+}
+
+.typography h4, .blog-card h4, .slide__copy h4, .slide-faq__content h4, .typography .faq-nav__text, .blog-card .faq-nav__text, .slide__copy .faq-nav__text, .slide-faq__content .faq-nav__text {
+    color: #333E48;
+}
+
+.slide-center h1, .blog-overview h1, .slide-center h2, .blog-overview h2, .slide-center h3, .blog-overview h3, .slide-center h4, .blog-overview h4, .slide-center .faq-nav-text, .blog-overview .faq-nav-text, .slide-center h5, .blog-overview h5, .slide-center h6, .blog-overview h6, .slide-center .blog-overview-page-count, .blog-overview .blog-overview-page-count, .slide-center .blog-card-meta, .blog-overview .blog-card-meta, .slide-center .blog-heading-bar-words-by, .blog-overview .blog-heading-bar-words-by, .slide-half h1, .slide-half h2, .slide-half h3, .slide-half h4, .slide-half .faq-nav-text, .slide-half h5, .slide-half h6, .slide-half .blog-overview-page-count, .slide-half .blog-card-meta, .slide-half .blog-heading-bar-words-by {
+    opacity: 0.01;
+    transition: all 0.7s cubic-bezier(0.34, 0.61, 0.59, 1.11) 0.2s;
+    transform: translateY(40px);
+}
+
+.slide-center.animated h1, .animated.blog-overview h1, .slide-center.animated h2, .animated.blog-overview h2, .slide-center.animated h3, .animated.blog-overview h3, .slide-center.animated h4, .animated.blog-overview h4, .slide-center.animated .faq-nav-text, .animated.blog-overview .faq-nav-text, .slide-center.animated h5, .animated.blog-overview h5, .slide-center.animated h6, .animated.blog-overview h6, .slide-center.animated .blog-overview-page-count, .animated.blog-overview .blog-overview-page-count, .slide-center.animated .blog-card-meta, .animated.blog-overview .blog-card-meta, .slide-center.animated .blog-heading-bar-words-by, .animated.blog-overview .blog-heading-bar-words-by, .slide-half.animated h1, .slide-half.animated h2, .slide-half.animated h3, .slide-half.animated h4, .slide-half.animated .faq-nav-text, .slide-half.animated h5, .slide-half.animated h6, .slide-half.animated .blog-overview-page-count, .slide-half.animated .blog-card-meta, .slide-half.animated .blog-heading-bar-words-by {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.contact-card-info {
+    display: block;
+}
+
+.contact-card-content {
+    line-height: 2em;
+}
